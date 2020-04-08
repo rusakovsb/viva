@@ -1,0 +1,164 @@
+/*-------------------------------------------*
+/* Colors
+/*-------------------------------------------*/
+
+body {
+    background-color: #fff;
+	color: #000;
+}
+
+a,
+.contacts-item__icon,
+.doctor__position,
+label.form-required:after,
+.field--name-field-doctor-position {
+    color: #29b76c;
+}
+
+a:hover,
+.menu--main a:hover,
+#footer-second a:hover {
+    color: #2dc575;
+}
+
+#sidebar {
+    border-right: 1px solid;
+}
+
+.menu--main a {
+    color: #000;
+    border-bottom: 1px solid;
+}
+
+.menu--main li:last-child a {
+    border-bottom: none;
+}
+
+.menu--main a.is-active {
+    color: rgba(0,0,0,0.5);
+}
+
+#header {
+    border-bottom: 1px solid;
+}
+
+#footer {
+    border-top: 1px solid;
+}
+
+#mobile-panel {
+    border-left: 1px solid;
+}
+
+#sidebar,
+#header,
+#footer,
+.menu--main ul li a,
+#mobile-panel {
+    border-color: rgba(0,0,0,0.1);
+}
+
+#header,
+.cover,
+#mobile-panel,
+.view-slider .flex-direction-nav a {
+    background-color: #fff;
+}
+
+#preloader span,
+.button,
+.node__content ul li:before,
+.menu--main a:after,
+.menu--main a.is-active:after,
+ul.tabs li a,
+.mobile:before,
+.landline:before,
+.address:before,
+.time:before {
+    background-color: #29b76c;
+}
+
+.button,
+ul.tabs li a {
+    color: #fff;
+}
+
+.button:hover,
+.button:active,
+.button:focus,
+ul.tabs li a:hover {
+    background-color: #2dc575;
+    color: #fff;
+}
+
+textarea, 
+select, 
+input.form-text, 
+input.form-email, 
+input.form-password {
+    border: 1px solid;
+    border-color: rgba(0,0,0,0.2);
+}
+
+textarea:focus, 
+select:focus, 
+input.form-text:focus, 
+input.form-email:focus, 
+input.form-password:focus {
+    border-color: #29b76c;
+}
+
+#footer-second {
+    color: rgba(0,0,0,0.5);
+}
+
+#footer-second a {
+    color: rgba(0,0,0,0.5);
+}
+
+.doctor__name a,
+.service__title a {
+    color: #000;
+}
+
+ul.tabs {
+    border-bottom: 1px solid #00d9e7;
+}
+
+ul.tabs li a.is-active {
+    background-color: #00d9e7;
+}
+
+#menu-icon span {    
+	background-color: #29b76c;
+}
+
+#menu-close-icon span {    
+    background-color: #8a8a8a;
+}
+
+thead {
+    background-color: rgba(0,0,0,0.1);
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgba(0,0,0,0.05);
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(255,255,255);
+}
+
+.node .field--name-body {
+    color: rgba(0,0,0,0.7);
+}
+
+.service__title,
+.work__caption,
+.doctor__title {
+    background-color: rgba(0,0,0,0.05);
+}
+
+
+
+

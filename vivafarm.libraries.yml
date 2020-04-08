@@ -1,0 +1,18 @@
+global-styling:
+  css:
+    theme: 
+      css/main.css: {}
+      css/grid.css: {}                 
+      css/colors.css: {}      
+      css/views.css: {}
+      css/fontawesome.css: {}
+      css/mobilepanel.css: {}
+      css/responsive.css: {}
+  js:
+    js/tweenmax.js: {}
+    js/main.js: {}
+    js/mobilepanel.js: {}  
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal.ajax

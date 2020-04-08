@@ -1,0 +1,21 @@
+name: Viva Farm
+type: theme
+description: 'vivafarm.by theme'
+package: Core
+
+libraries:
+  - vivafarm/global-styling
+
+regions:
+  sidebar: 'Sidebar'
+  header: 'Header'
+  slider: 'Slider'  
+  content: 'Content'
+  footer_first: 'Footer First'
+  footer_second: 'Footer Second'
+  mobile_panel: 'Mobile Panel'
+
+# Information
+core: '8.x'
+project: 'drupal'
+

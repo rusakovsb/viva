@@ -1,0 +1,5 @@
+# Schema for the configuration files.
+
+vivafarm.settings:
+  type: vivafarm_settings
+  label: 'VivaFarm settings'

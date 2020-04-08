@@ -1,0 +1,181 @@
+/*-------------------------------------------*
+/* < 1400px
+/*-------------------------------------------*/
+
+@media all and (max-width: 1399px) {
+
+.region-sidebar .block,
+#main,
+#footer-second {
+    padding: 30px;
+}
+
+#header {
+    padding: 15px 30px;
+}
+	
+#block-time {
+	display: none;
+}
+
+.menu--main a {
+    padding: 10px 0;
+}
+
+h1 {
+	font-size: 40px; 
+}
+
+.view-slider .flex-direction-nav {
+    right: 30px;
+    bottom: 30px;
+}
+
+.view-slider .flex-direction-nav a span {
+    width: 30px;
+    line-height: 30px;
+}
+
+.view-slider .flex-direction-nav a span:before {
+    font-size: 20px;
+}
+
+.view-slider .flex-control-nav {
+    left: 30px;
+    bottom: 30px;
+}
+
+}
+
+/*-------------------------------------------*
+/* < 992
+/*-------------------------------------------*/
+
+@media all and (max-width: 991px) {
+
+body {
+    padding: 78px 0 0 0;
+}
+
+#overlay {
+    left: 0; 
+}
+
+.path-frontpage #slider,
+.view-slider .slides li {
+    height: auto;
+}
+
+.view-slider .slides li {
+    padding: 70% 0 0 0;
+}
+
+#sidebar,
+#block-address,
+#block-appointment-button {
+	display: none;
+}
+
+#header {
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    width: 100%;
+    z-index: 500;
+}
+
+.path-frontpage #header,
+#block-mobile-logo {
+    display: block;
+}
+
+#block-mobile-logo {
+    width: 150px;
+}
+
+#wrapper {
+    margin-left: 0;
+}
+
+.service__title,
+.work__caption,
+.doctor__name {    
+    font-size: 20px;
+}
+
+.form-item {
+    width: 100%;
+}
+
+.cover {
+    display: none;
+}
+
+}
+
+/*-------------------------------------------*
+/* < 768
+/*-------------------------------------------*/
+
+@media all and (max-width: 767px) {
+
+.region-sidebar .block,
+#main,
+#footer-second {
+    padding: 15px;
+}
+
+#header {
+    padding: 10px 15px;
+}
+
+h1, h2, h3, h4, h5, h6, .block-title {
+	font-size: 25px;
+}
+
+.view-slider .flex-direction-nav {
+    right: 15px;
+    bottom: 15px;
+}
+
+.view-slider .flex-control-nav {
+    left: 15px;
+    bottom: 15px;
+}
+
+.region-footer-second {
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+h1, 
+h2, 
+.block-title,
+p,
+.work,
+.form-item,
+.field--name-field-doctor-position,
+.field--name-field-doctor-photo {
+    margin: 0 0 15px 0;
+}
+
+.field--name-field-doctor-photo {
+    width: 100%;
+    float: none;
+}
+
+.view-slider .flex-direction-nav a {
+    width: 30px;
+    height: 30px;
+    background-size: 15px 15px;
+}
+
+.node ul, 
+.node ol {
+    margin: 0 0 15px 15px;
+}
+
+}
+
+
+
